@@ -1,29 +1,27 @@
 {
   "expo": {
-    "name": "myApp",
+    "name": "Planora",
     "slug": "myApp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
-    "newArchEnabled": true,
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
-    "ios": {
-      "supportsTablet": true
+      "backgroundColor": "#4f46e5"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#4f46e5"
       },
-      "edgeToEdgeEnabled": true
+      "package": "com.tuba.planora"
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
+    "extra": {
+      "eas": {
+        "projectId": "5ae7a7f1-e951-4b69-9d69-ceadd36f1339"
+      }
     }
   }
 }
